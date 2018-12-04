@@ -26,7 +26,7 @@ python data_preprocessing.py
 ##### 2. Training and Evaluation 
 
 ```
-python training.py
+python train.py
 ```
 
 1) Load the pickle files for training.
