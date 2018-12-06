@@ -29,12 +29,11 @@ python data_preprocessing.py
 python train.py
 ```
 
-1) Load the pickle files for training.
-2) Reshape the data as needed by keras and convert the lables into one hot array.
-3) Normalize the data .
-4) Define the architecture of CovNet.
-5) Use 20% data for validation.
-6) Train the model
+1) Reshape the data as needed by keras and convert the lables into one hot array.
+2) Normalize the data .
+3) Define the architecture of CovNet.
+4) Use 20% data for validation.
+5) Train the model
 
 ##### Architecture 
 
