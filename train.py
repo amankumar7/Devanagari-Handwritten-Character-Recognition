@@ -17,7 +17,7 @@ tb = TensorBoard(log_dir='logs/{}'.format(m_name))
 
 
 x_train,y_train,lables_id = data('train')
-x_train,y_train,lables_id = data('test')
+x_train,y_train,tlables_id = data('test')
 
 rec_labels={v:k for k,v in labels_id.items() }
 
@@ -55,9 +55,6 @@ model.add(Activation("relu"))
 
 
 model.add(Dense(46))
-
-model.add(Activation("softmax"))
-
 
 model.add(Activation("softmax"))
 
